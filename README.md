@@ -2,9 +2,9 @@
 Microsoft Azure Hackathon
 
 # Idea Details
-A custom loyalty program for small scale business. This program rewards the exisiting as well as new customers.
+Simply is a product which is built to revolutionise the loyalty program for offline and small scale business. This program rewards the existing as well as new customers.
 
-https://docs.google.com/presentation/d/1VOQAP1y-JkfqSdYk6VQvaf49lKEObB2zsRBT-NXpi4o/edit?usp=sharing
+Presentation Link - https://socx.in/simply_ppt
 
 # Azure Services
 1) Azure App Services
