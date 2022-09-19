@@ -4,6 +4,8 @@ Microsoft Azure Hackathon
 # Idea Details
 A custom loyalty program for small scale business. This program rewards the exisiting as well as new customers.
 
+https://docs.google.com/presentation/d/1VOQAP1y-JkfqSdYk6VQvaf49lKEObB2zsRBT-NXpi4o/edit?usp=sharing
+
 # Azure Services
 1) Azure App Services
 2) Azure functions
