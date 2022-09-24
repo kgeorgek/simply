@@ -1,0 +1,45 @@
+﻿
+@model Simply.Models.Customer
+@{
+    ViewBag.Title = "Review";
+}
+
+<h2>Review</h2>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    @using (Html.BeginForm("Review", "Home", FormMethod.Post))
+    {
+        <table cellpadding="0" cellspacing="0">
+            
+            <tr>
+                <td>Name: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Email)
+                </td>
+            </tr>
+            <tr>
+                <td>Phone: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Phone)
+                </td>
+            </tr>
+            <tr>
+                <td>Review: </td>
+                <td>
+                    @Html.TextBoxFor(m => m.Review)
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit" /></td>
+            </tr>
+        </table>
+    }
+</body>
+
+</html>

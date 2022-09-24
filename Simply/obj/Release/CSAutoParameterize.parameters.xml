@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="SimplyContext-Web.config Connection String" description="SimplyContext Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:simplysql.database.windows.net,1433;Initial Catalog=simply-db-master;Persist Security Info=False;User ID=simply;Password=Hackathon@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\POC\\Hackathon\\Simply\\Simply\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='SimplyContext']/@connectionString" />
+  </parameter>
+</parameters>
